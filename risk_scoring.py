@@ -238,4 +238,4 @@ for score, count in score_dist.items():
     risk_level = "LOW" if score >= 700 else "MEDIUM" if score >= 500 else "HIGH"
     print(f"  Score {score}: {count} wallets ({risk_level} RISK)")
 
-print(f"\n✅ Documentation saved to 'methodology_explanation.txt'")
+print(f"\n✅ Process completed successfully!")
